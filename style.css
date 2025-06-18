@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #111;
+    padding: 20px 0;
+    border-bottom: 2px solid #00aaff;
+}
+
+header h1 {
+    margin: 0;
+    color: #00aaff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #00aaff;
+}
+
+.banner {
+    padding: 80px 0;
+    text-align: center;
+    border-top: 2px solid #00aaff;
+    border-bottom: 2px solid #00aaff;
+}
+
+.texto-banner h2 {
+    color: #00aaff;
+    font-size: 2.5em;
+}
+
+/* Conteúdo */
+.conteudo {
+    padding: 40px 0;
+}
+
+.conteudo h2 {
+    color: #26a5e4;
+}
+
+
+.conteudo ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+/* Rodapé */
+footer {
+    background-color: black
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px solid #109bec;
+    margin-top: 40px;
+}
+
+body{
+    font-size: 25px;
+}
+
+
